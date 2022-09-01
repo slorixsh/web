@@ -1,9 +1,10 @@
-let key1 = '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';
+let key1 = 'ghp_A0dqDN637Zf2SSj';
+let key2 = 'oWgciMpgzxZnUWp4PLDF3';
 
 export default async (req, res) => {
-    let _ = await (await fetch('https://api.github.com/users/slorixsh/repos', {
+    let _ = await (await fetch('https://api.github.com/users/clqu/repos', {
         headers: {
-            Authorization: 'token '+key1
+            Authorization: 'token '+key1+key2
         }
     })).json();
 
