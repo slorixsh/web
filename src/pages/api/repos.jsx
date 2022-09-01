@@ -8,7 +8,7 @@ export default async (req, res) => {
         }
     })).json()
     try {
-        res.send([..._, ...__, ...___])
+        res.send([..._])
     } catch {
         res.status(500);
     }
