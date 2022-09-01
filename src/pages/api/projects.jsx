@@ -16,7 +16,7 @@ export default async (req, res) => {
       name: "AnimesWatch",
       description:
         "Provides Ad-free, Turkish anime watching experience.",
-      link: "https://nustry.com",
+      link: "https://animeswatch.com/",
       language: "Next.js",
       languageIcon: "./static/techs/nextjs.svg",
     },
