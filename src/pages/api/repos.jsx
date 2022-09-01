@@ -6,11 +6,4 @@ export default async (req, res) => {
         headers: {
             Authorization: 'token '+key1+key2
         }
-    })).json();
-
-    try {
-        res.send([..._, ...__, ...___])
-    } catch {
-        res.status(500);
-    }
-}
+    })).json()
